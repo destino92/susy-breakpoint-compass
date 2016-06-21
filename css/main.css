@@ -443,3 +443,22 @@ textarea {
   font: inherit;
   /* 2 */
 }
+
+/* line 9, ../scss/main.scss */
+.container {
+  height: 100vh;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, transparent 80%);
+  background-size: 6.32911%;
+  background-origin: content-box;
+  background-clip: content-box;
+  background-position: left top;
+}
+/* line 12, ../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
