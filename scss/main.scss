@@ -42,3 +42,9 @@ $susy: (
 	background-color: rgba(100, 100, 30, 0.6);
 	@include span(4 of 16 last);
 }
+
+.footer {
+	height: 20vh;
+	background-color: rgba(0, 30, 100, 0.6);
+	clear: both;
+}

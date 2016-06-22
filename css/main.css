@@ -506,3 +506,10 @@ textarea {
   float: right;
   margin-right: 0;
 }
+
+/* line 46, ../scss/main.scss */
+.footer {
+  height: 20vh;
+  background-color: rgba(0, 30, 100, 0.6);
+  clear: both;
+}
