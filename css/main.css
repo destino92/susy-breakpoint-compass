@@ -462,3 +462,12 @@ textarea {
   display: block;
   clear: both;
 }
+
+/* line 14, ../scss/main.scss */
+.sidebar-left {
+  width: 11.39241%;
+  float: left;
+  margin-right: 1.26582%;
+  height: 80vh;
+  background-color: rgba(0, 100, 100, 0.6);
+}
