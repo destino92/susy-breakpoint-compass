@@ -526,9 +526,9 @@ a:hover {
   float: left;
   margin-left: 0;
   margin-right: 0;
-  -moz-box-shadow: #551955, 0 0 5px;
-  -webkit-box-shadow: #551955, 0 0 5px;
-  box-shadow: #551955, 0 0 5px;
+  -moz-box-shadow: #551955 0 0 5px;
+  -webkit-box-shadow: #551955 0 0 5px;
+  box-shadow: #551955 0 0 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
