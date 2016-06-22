@@ -1,16 +1,26 @@
 @import "normalize";
 @import "susy";
 @import "breakpoint";
+@import "compass";
 
 $susy: (
 	columns: 16,
-	debug: (image: show),
+	// debug: (image: show),
 	global-box-sizing: border-sizing
 );
 
 @include border-box-sizing;
 
 $medium-screen: 720px;
+$link-color: #330000;
+
+a {
+	color: $link-color;
+
+	&:hover {
+		color: lighten($link-color, 25%);
+	}
+}
 
 .container {
 	@include container(1140px);
@@ -35,8 +45,16 @@ $medium-screen: 720px;
 	}
 
 	.content {
+		overflow: auto;
 		height: 60vh;
+		padding: 3 * gutter();
 		background-color: rgba(100, 0, 0, 0.6);
+		@include text-shadow(#aaa 0 1px 0);
+		@include column-count(3);
+
+		p {
+			margin-top: 0;
+		}
 	}
 
 	.teaser {
