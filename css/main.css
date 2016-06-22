@@ -447,7 +447,7 @@ textarea {
 /* line 9, ../scss/main.scss */
 .container {
   height: 100vh;
-  max-width: 100%;
+  max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, transparent 80%);

@@ -8,7 +8,7 @@ $susy: (
 
 .container {
 	height: 100vh;
-	@include container();
+	@include container(1140px);
 }
 
 .sidebar-left {
