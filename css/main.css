@@ -518,13 +518,20 @@ a:hover {
 }
 /* line 60, ../scss/main.scss */
 .main .teaser {
-  height: 20vh;
+  height: 16vh;
   background-color: rgba(100, 30, 100, 0.6);
   padding: 2.04082%;
+  margin: 2vh 0;
   width: 100%;
   float: left;
   margin-left: 0;
   margin-right: 0;
+  -moz-box-shadow: #551955, 0 0 5px;
+  -webkit-box-shadow: #551955, 0 0 5px;
+  box-shadow: #551955, 0 0 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 @media (min-width: 720px) {
   /* line 60, ../scss/main.scss */
@@ -533,21 +540,21 @@ a:hover {
     float: left;
     margin-right: 2.04082%;
   }
-  /* line 69, ../scss/main.scss */
+  /* line 72, ../scss/main.scss */
   .main .teaser:nth-child(5n) {
     float: right;
     margin-right: 0;
   }
 }
 
-/* line 76, ../scss/main.scss */
+/* line 79, ../scss/main.scss */
 .sidebar-right {
   height: 80vh;
   background-color: rgba(100, 100, 30, 0.6);
   clear: both;
 }
 @media (min-width: 720px) {
-  /* line 76, ../scss/main.scss */
+  /* line 79, ../scss/main.scss */
   .sidebar-right {
     clear: none;
     width: 24.05063%;
@@ -556,7 +563,7 @@ a:hover {
   }
 }
 
-/* line 87, ../scss/main.scss */
+/* line 90, ../scss/main.scss */
 .footer {
   height: 20vh;
   background-color: rgba(0, 30, 100, 0.6);
