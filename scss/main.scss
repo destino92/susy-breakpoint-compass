@@ -36,3 +36,9 @@ $susy: (
 		}
 	}
 }
+
+.sidebar-right {
+	height: 80vh;
+	background-color: rgba(100, 100, 30, 0.6);
+	@include span(4 of 16 last);
+}

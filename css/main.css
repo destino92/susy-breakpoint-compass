@@ -497,3 +497,12 @@ textarea {
   float: right;
   margin-right: 0;
 }
+
+/* line 40, ../scss/main.scss */
+.sidebar-right {
+  height: 80vh;
+  background-color: rgba(100, 100, 30, 0.6);
+  width: 24.05063%;
+  float: right;
+  margin-right: 0;
+}
